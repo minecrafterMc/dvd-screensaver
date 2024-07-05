@@ -9,7 +9,7 @@ const SpacesOnGrid = Rows * Columns;
 document.getElementById("canvas").width = CanvasWidth;
 document.getElementById("canvas").height = CanvasHeight;
 var Board = [];
-var DVD = new Cell(1,1,"blue",true,"dvd1.png","cellEngine");
+var DVD = new Cell(1,1,"blue",true,"dvd2.png","cellEngine");
 var xvel = 1;
 var yvel = 1;
 function RandomInt(min, max) {

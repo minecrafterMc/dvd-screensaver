@@ -22,19 +22,19 @@ function tick()
     DVD.move(xvel,yvel);
     if (DVD.bx == Columns){
         xvel = -1;
-        DVD.texture = "DVD"+RandomInt(1,4)+".png";
+        //DVD.texture = "DVD"+RandomInt(1,4)+".png";
     }
     else if (DVD.bx == 1){
         xvel = 1;
-        DVD.texture = "DVD"+RandomInt(1,4)+".png";
+        //DVD.texture = "DVD"+RandomInt(1,4)+".png";
     }
     if (DVD.by == Rows){
         yvel = -1;
-        DVD.texture = "DVD"+RandomInt(1,4)+".png";
+        //DVD.texture = "DVD"+RandomInt(1,4)+".png";
     }
     else if (DVD.by == 1){
         yvel = 1;
-        DVD.texture = "DVD"+RandomInt(1,4)+".png";
+        //DVD.texture = "DVD"+RandomInt(1,4)+".png";
     }
     DVD.drawCell();
 }
